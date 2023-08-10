@@ -12,30 +12,44 @@ Attention, learners. Please be aware that the Boston dataset has been eliminated
 The Data
 The target of this Assignment is to be able to predict the target variable (Median house value), given the other input variables.
 
-Column	Description
-crim	per capita crime rate by town.
-zn	proportion of residential land zoned for lots over 25,000 sq.ft.
-indus	proportion of non-retail business acres per town.
-chas	Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).
-nox	nitrogen oxides concentration (parts per 10 million).
-rm	average number of rooms per dwelling.
-age	proportion of owner-occupied units built prior to 1940.
-dis	weighted mean of distances to five Boston employment centres.
-rad	index of accessibility to radial highways.
-tax	full-value property-tax rate per $10,000.
-ptratio	pupil-teacher ratio by town.
-black	1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town.
-lstat	lower status of the population (percent).
-medv	median value of owner-occupied homes in $1000s. This is the target variable.
+Column	Description:
 
+Columns:
+- **CRIM: ** Per capita crime rate by town
+- **ZN: ** Proportion of residential land zoned for lots over 25,000 sq. ft
+- **INDUS: ** Proportion of non-retail business acres per town
+- **CHAS : ** Charles River dummy variable (1 if tract bounds river; 0 otherwise)
+- **NOX: ** Nitric oxide concentration (parts per 10 million)
+- **RM: ** Average number of rooms per dwelling
+- **AGE: ** Proportion of owner-occupied units built prior to 1940
+- **DIS: ** Weighted distances to five Boston employment centers
+- **RAD: ** Index of accessibility to radial highways
+- **PTRATIO: ** Pupil-teacher ratio by town
+- **B: ** 1000(Bk — 0.63)², where Bk is the proportion of [people of African American descent] by town
+- **LSTAT: ** Percentage of lower status of the population
+- **MEDV: ** Median value of owner-occupied homes in $1000s
 The target of this Assignment is to be able to predict the target variable (Median house value), given the other input variables.
 
-Thoughts
-Some ideas/thoughts to help you with the exercise:
-What ML task is this? Classification? Regression? Clustering?
-What kind of models would be best to accomplish this?
-How would you maximize performance of the models that you evaluate for this task?
-How much is the cost of this model? (Time and compute cost)
-Which model gives the best RoI (Return on Investment)?
-End Objective
-Can you discover a model that performs this prediction task with a score of over 0.9?
+
+
+
+Conclusion:
+
+I have built 6 regression models using Boston Housing Dataset.
+
+These are linear, polynomial, ridge, lasso, decision tree and random forest regression.
+
+Then measured and visualized the performance of the models.
+
+Cross Validation Score is greater for Random Forest Regression:
+
+R2 Score (training) is greater for Decision Tree Regression:
+
+Whereas R2 Score (test) is greater for Lasso Regression as well as Ridge Regression:
+
+RMSE is greater for Decision Tree and Polynomial Regression (2nd) in comparison between different models.
+
+
+
+
+
