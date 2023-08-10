@@ -28,7 +28,7 @@ Columns:
 - **B: ** 1000(Bk — 0.63)², where Bk is the proportion of [people of African American descent] by town
 - **LSTAT: ** Percentage of lower status of the population
 - **MEDV: ** Median value of owner-occupied homes in $1000s
-The target of this Assignment is to be able to predict the target variable (Median house value), given the other input variables.
+The target of this Assignment is to be able to predict the target variable (Median house value), given the other input variables
 
 
 
